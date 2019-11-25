@@ -62,6 +62,7 @@ public class PickerActivity extends AppCompatActivity implements ImageListAdapte
         initLoaderManager();
         //初始化view
         initView();
+        //初始化事件
         initEvent();
         initConfig();
     }
