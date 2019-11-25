@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity implements PickerConfig.OnIm
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initView();
+
         checkPermission();
         initPickerConfig();
     }
