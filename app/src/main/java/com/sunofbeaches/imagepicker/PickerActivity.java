@@ -60,6 +60,7 @@ public class PickerActivity extends AppCompatActivity implements ImageListAdapte
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_picker);
         initLoaderManager();
+        //初始化view
         initView();
         initEvent();
         initConfig();
